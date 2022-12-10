@@ -47,8 +47,8 @@ const App = () =>  {
   return (
     <div className="container">
       <Header
-       showAdd={showAddTask}
-       onAdd={() => setShowAddTask(!showAddTask)}
+       showAdd = {showAddTask}
+       onAdd   = {() => setShowAddTask(!showAddTask)}
       />
       {showAddTask && <AddTask onAdd={addTask}/>}
 
