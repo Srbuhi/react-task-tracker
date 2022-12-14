@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer>
       <p>Copyright &copy; 2022</p>
-      <Link to="/about">About</Link>
- </footer>
+      <Link className="link" to="/about">About</Link>
+    </footer>
   )
 }
 
